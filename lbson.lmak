@@ -1,8 +1,8 @@
 --工程名字
-PROJECT_NAME = "lmongo"
+PROJECT_NAME = "lbson"
 
 --目标名字
-TARGET_NAME = "lmongo"
+TARGET_NAME = "lbson"
 
 ----工程类型: static/dynamic/exe
 PROJECT_TYPE = "dynamic"
@@ -10,7 +10,6 @@ PROJECT_TYPE = "dynamic"
 --需要的include目录
 INCLUDES = {
     "../lua/lua",
-    "../lcodec/src",
     "../luakit/include"
 }
 
